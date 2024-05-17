@@ -1,0 +1,33 @@
+:root{
+    --black: #38170a;
+}
+html{
+    background-image: url(https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/dark_souls_3_firelink_shrine_outsides.png);
+}
+header{
+    background-color: var(--black);
+    
+}
+.column{
+    float: left;
+    width: 10%;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+footer{
+    float: right;
+    width: 20%;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: end;
+    color: black;
+}
